@@ -12,7 +12,7 @@ It provides a **public link** for anyone to view the card, while only the card o
 
 ## 📸 Dashboard Preview
 <div>
-    <img src="dashboard.png" alt="Home Screen" style="width: 30%; display: inline-block; margin-right: 1%;"/>
+    <img src="dashboard.png" alt="Home Screen" style="width: 100%; display: inline-block; margin-right: 1%;"/>
 </div>
 
 ---
