@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# 💳 Digital E-Visiting Card
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Digital Card** project is an online platform that allows users to create, update, and share their **E-Visiting Cards**.  
+It provides a **public link** for anyone to view the card, while only the card owner (logged-in user) can update the details.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Live Demo
+🔗 [View Deployed App](<YOUR_DEPLOYED_LINK>)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📸 Dashboard Preview
+![Dashboard Screenshot](<DASHBOARD_IMAGE_PATH>)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
+- 🔐 **Authentication** – Secure login & registration for users.  
+- 📝 **Card Management** – Create, update, and manage your digital visiting card.  
+- 🌍 **Public Sharing** – Shareable link to showcase card details publicly.  
+- 🎨 **Responsive UI** – Optimized for desktop and mobile devices.  
+- ⚡ **React Router Integration** – Smooth navigation across pages.  
+- 📡 **Firebase Backend** – Secure storage and real-time updates.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Tech Stack
+- **Frontend:** React, React Router, Context API  
+- **Backend / Auth:** Firebase  
+- **Styling:** CSS, Flexbox, Media Queries  
+- **Hosting:** Netlify / Vercel / Firebase Hosting  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📂 Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+digital-card/
+├── public/
+├── src/
+│   ├── components/    # Reusable UI components
+│   ├── context/       # Auth provider
+│   ├── pages/         # Page components (Dashboard, VisitingCard, Login, etc.)
+│   ├── App.js         # Main app file with routes
+│   └── index.js       # Entry point
+└── README.md
+```
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚡ Setup & Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/digital-card.git
+   cd digital-card
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Setup Firebase:
+   - Create a Firebase project.  
+   - Enable **Authentication** & **Firestore Database**.  
+   - Add Firebase config in a `.env` file.  
 
-## Learn More
+4. Start development server:
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Build for production:
+   ```bash
+   npm run build
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🔗 Public Card Link Example
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Each user gets a unique public card link:
 
-### Analyzing the Bundle Size
+```
+https://yourdomain.com/card/<userId>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Anyone can **view** the card.  
+- Only the owner can **update** it after logging in.  
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👨‍💻 Author
 
-### Advanced Configuration
+**Aletti Pranay**  
+🔗 [GitHub](https://github.com/Pranay9392)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
