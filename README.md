@@ -6,7 +6,7 @@ It provides a **public link** for anyone to view the card, while only the card o
 ---
 
 ## 🚀 Live Demo
-🔗 [View Deployed App](<YOUR_DEPLOYED_LINK>)
+🔗 [View Deployed App](https://spectacular-tulumba-7768c7.netlify.app/)
 
 ---
 
