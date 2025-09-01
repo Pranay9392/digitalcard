@@ -1,0 +1,155 @@
+.visiting-card {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+  }
+  
+  .owner-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+  }
+  
+  .header-text h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .header-text h2 {
+    font-size: 1rem;
+    margin: 4px 0 0;
+    color: #777;
+  }
+  
+  .card-body {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .contact-info i {
+    margin-right: 8px;
+    color: #007bff;
+  }
+  
+  .shop-photo {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .products-section {
+    margin-top: 30px;
+  }
+  
+  .products-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .products-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  
+  .product-card {
+    flex: 1 1 calc(50% - 16px);
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+
+  .product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .product-details h4 {
+    margin: 8px 0 4px;
+    font-size: 1.1rem;
+    color: #222;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 4px;
+  }
+  
+  .details {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Loader and Error */
+  .loading, .error, .not-found {
+    text-align: center;
+    font-size: 1rem;
+    padding: 40px 0;
+    color: #999;
+  }
+  
+  /* 🔻 Mobile Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .card-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .header-text h1 {
+      font-size: 1.4rem;
+    }
+  
+    .header-text h2 {
+      font-size: 0.95rem;
+    }
+  
+    .owner-photo {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .products-grid {
+      flex-direction: column;
+    }
+  
+    .product-card {
+      flex: 1 1 100%;
+    }
+  }
+  
